@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.ServletWebRequest;
 import ua.nrubantseva.api.users.exception.UserAgeRestrictionException;
+import ua.nrubantseva.api.users.exception.response.ErrorMessageResponse;
 
 /**
  * Global exception handler for handling specific exceptions thrown in the application.

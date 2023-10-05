@@ -1,4 +1,4 @@
-package ua.nrubantseva.api.users.exception.handler;
+package ua.nrubantseva.api.users.exception.response;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
